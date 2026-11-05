@@ -1,1 +1,18 @@
+Linux File, Directory and Process Management.
 
+Explanations:
+
+touch – Creates a file.
+ls – Lists files.
+cp – Copies files.
+mv – Renames or moves files.
+rm – Deletes files.
+mkdir – Creates a directory.
+cd – Changes directory.
+pwd – Displays the current directory.
+rmdir – Removes an empty directory.
+sleep – Creates a waiting process.
+ps – Displays running processes.
+jobs – Displays background jobs.
+kill – Terminates a process.
+$! – Stores the PID of the last background process.
