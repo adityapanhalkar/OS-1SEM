@@ -1,0 +1,20 @@
+OS Version, Kernel Version and Release Information.
+
+Explanation:
+
+Command - Purpose
+cat /etc/os-release - Displays operating system information.
+uname -r - Displays the kernel release version.
+uname -v - Displays kernel build information.
+uname -m - Displays system architecture.
+uname -s - Displays operating system name.
+
+
+Important concepts:
+
+/etc/os-release - contains Linux distribution information.
+uname - displays system and kernel information.
+-r - represents kernel release.
+-v - represents kernel version/build information.
+-m - represents machine architecture.
+-s - represents kernel name.
