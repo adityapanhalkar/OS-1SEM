@@ -2,7 +2,7 @@ Linux System Calls.
 
 Explanation:
 
-System call Purpose
+System call - Purpose
 open() - Opens or creates a file.
 read() - Reads data from a file.
 write() - Writes data into a file.
