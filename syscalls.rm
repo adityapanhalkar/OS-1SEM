@@ -1,1 +1,20 @@
+Linux System Calls.
 
+Explanation:
+
+System call Purpose
+open() - Opens or creates a file.
+read() - Reads data from a file.
+write() - Writes data into a file.
+close() - Closes an opened file.
+getpid() - Returns the current process ID.
+getuid() - Returns the current user ID.
+getgid() - Returns the current group ID.
+lseek() - Changes the file pointer position.
+
+Important concepts:
+O_CREAT – Creates the file if it doesn't exist.
+O_RDWR – Opens the file for reading and writing.
+O_TRUNC – Clears existing file content.
+0644 – Sets file permissions.
+SEEK_SET – Moves the file pointer relative to the beginning.
