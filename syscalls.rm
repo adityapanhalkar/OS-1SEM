@@ -12,7 +12,9 @@ getuid() - Returns the current user ID.
 getgid() - Returns the current group ID.
 lseek() - Changes the file pointer position.
 
+
 Important concepts:
+
 O_CREAT – Creates the file if it doesn't exist.
 O_RDWR – Opens the file for reading and writing.
 O_TRUNC – Clears existing file content.
