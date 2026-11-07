@@ -1,0 +1,8 @@
+Non-Preemptive CPU Scheduling Using FCFS.
+
+Explanation:
+
+FCFS executes processes in the order they arrive.
+WT (Waiting Time) is the time a process waits before execution.
+TAT (Turnaround Time) = Waiting Time + Burst Time.
+Assumes all processes arrive at time 0.
