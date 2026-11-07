@@ -1,0 +1,18 @@
+Creating a Child Process Using fork().
+
+Explanation:
+
+Function - Purpose
+fork() - Creates a new child process.
+getpid() - Returns the current process ID.
+getppid() - Returns the parent process ID.
+
+
+Important concepts:
+
+pid_t – Data type used to store process IDs.
+fork() – Creates a child process by duplicating the calling process.
+pid == 0 – Indicates execution in the child process.
+pid > 0 – Indicates execution in the parent process; the value is the child's PID.
+pid < 0 – Indicates that process creation failed.
+Parent and child execute independently after fork().
