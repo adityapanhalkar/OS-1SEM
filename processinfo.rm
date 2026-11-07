@@ -1,1 +1,19 @@
+Top Processes and User Information.
 
+Explanation:
+
+Command - Purpose
+ps aux - Displays all running processes.
+--sort=-%cpu - Sorts processes by CPU usage (highest first).
+head - Displays the first 10 lines by default.
+whoami - Displays the current logged-in username.
+$HOME - Displays the user's home directory.
+pwd - Displays the current working directory.
+
+         
+Important concepts:
+
+ps – Process status.
+aux – Displays processes from all users with detailed information.
+| – Pipe operator; passes the output of one command to another.
+$HOME – Environment variable containing the home directory.
