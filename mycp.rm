@@ -1,0 +1,20 @@
+Implementing the Linux cp Command Using System Calls.
+
+Explanation:
+
+Function - Purpose
+open() - Opens or creates a file.
+read() - Reads data from the source file.
+write() - Writes data into the destination file.
+close() - Closes the opened file.
+perror() - Displays an error message.
+
+
+Important concepts:
+
+O_RDONLY – Opens a file in read-only mode.
+O_WRONLY – Opens a file in write-only mode.
+O_CREAT – Creates a file if it doesn't exist.
+O_TRUNC – Removes existing destination content.
+0644 – Sets file permissions.
+buffer[1024] – Temporarily stores data while copying.
