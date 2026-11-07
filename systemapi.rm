@@ -1,0 +1,21 @@
+Demonstrating Linux System Calls Using Kernel APIs.
+
+Explanation:
+
+Function - Purpose
+open() - Opens or creates a file.
+write() - Writes data into a file.
+lseek() - Moves the file pointer.
+read() - Reads data from a file.
+getpid() - Returns the current process ID.
+close() - Closes the file descriptor.
+
+
+Important concepts:
+
+File descriptor (fd): An integer returned by open() that identifies an opened file.
+Kernel API: An interface through which a user-space program requests services from the Linux kernel.
+System call: A mechanism used by programs to request operating-system services.
+O_CREAT – Creates a file if it doesn't exist.
+O_RDWR – Opens a file for reading and writing.
+O_TRUNC – Clears existing file content.
