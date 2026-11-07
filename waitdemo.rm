@@ -1,0 +1,17 @@
+Demonstrating wait() and waitpid().
+
+Explanation:
+
+Function - Purpose
+fork() - Creates a child process.
+wait() - Makes the parent wait until any child process terminates.
+waitpid() - Makes the parent wait for a specific child process.
+sleep() - Pauses execution for a specified number of seconds.
+
+
+Important concepts:
+
+wait(NULL) – Waits for any child process to finish.
+waitpid(pid, NULL, 0) – Waits for the child whose PID is stored in pid.
+NULL – Indicates that the exit status is not being collected.
+0 – Uses the default blocking behaviour of waitpid().
